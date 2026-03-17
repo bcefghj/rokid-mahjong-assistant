@@ -1,5 +1,17 @@
 # Rokid AI 麻将助手
 
+> **⚠️ 参考声明 / Attribution Notice**
+>
+> 本项目基于 **[LYiHub/AR-Mahjong-Assistant-preview](https://github.com/LYiHub/AR-Mahjong-Assistant-preview)** 改编，在此郑重声明并致谢原作者 **LYiHub**。
+>
+> 原项目为面向 **RayNeo（雷鸟）X3 Pro AR 眼镜** 设计的麻将辅助系统，本项目在其基础上进行了适配，使其能运行在 **Rokid AI 眼镜（乐奇）** 上。
+>
+> 如原作者认为本项目存在侵权问题，请通过 GitHub Issues 联系，本人将立即删除。
+>
+> This project is derived from [LYiHub/AR-Mahjong-Assistant-preview](https://github.com/LYiHub/AR-Mahjong-Assistant-preview). Full credit goes to the original author **LYiHub**. If you find any copyright concerns, please open an issue and this repository will be removed immediately.
+
+---
+
 基于 Rokid AI 眼镜（乐奇）的 AR 麻将辅助应用。通过摄像头识别手牌，AI 分析最优出牌策略，在眼镜屏幕上实时显示建议。
 
 ## 功能特性
@@ -121,6 +133,17 @@ Rokid 眼镜 (客户端)          服务端 (电脑)
 | BaseMirrorActivity | AppCompatActivity |
 | compileSdk 36 | compileSdk 34, targetSdk 32 |
 
+## 致谢 / Credits
+
+本项目基于以下开源项目改编：
+
+- **[LYiHub/AR-Mahjong-Assistant-preview](https://github.com/LYiHub/AR-Mahjong-Assistant-preview)** — 原始 AR 麻将助手项目，面向 RayNeo 雷鸟 X3 Pro 眼镜设计，本项目核心架构、YOLO 模型、牌效引擎、服务端代码均源自此项目。原作者：LYiHub。
+- **[SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper)** — 离线语音转文字
+- **[FluffyStuff/riichi-mahjong-tiles](https://github.com/FluffyStuff/riichi-mahjong-tiles)** — 麻将图片素材
+- Jon Chan 提供的 Mahjong Dataset（发布于 Roboflow Universe）
+
 ## License
 
 MIT License
+
+> 注意：本项目为学习和研究目的改编自开源项目。原项目 [LYiHub/AR-Mahjong-Assistant-preview](https://github.com/LYiHub/AR-Mahjong-Assistant-preview) 版权归原作者所有。
